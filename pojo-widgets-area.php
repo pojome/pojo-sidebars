@@ -87,11 +87,6 @@ final class Pojo_Widgets_Area {
 
 		$this->db       = new PWA_DB();
 		$this->admin_ui = new PWA_Admin_UI();
-		
-		/*$this->db->update_sidebar( array(
-			'name' => 'First sidebar',
-			'description' => 'First desc',
-		) );*/
 	}
 	
 	private function __construct() {
