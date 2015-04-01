@@ -72,6 +72,7 @@ final class PWA_Admin_UI {
 					array(
 						'name' => $_POST['name'],
 						'description' => $_POST['description'],
+						'css_classes' => $_POST['css_classes'],
 					),
 					$_POST['sidebar_id']
 				);
