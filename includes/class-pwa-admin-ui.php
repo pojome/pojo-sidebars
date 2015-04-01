@@ -92,12 +92,16 @@ final class PWA_Admin_UI {
 		$sidebars = Pojo_Widgets_Area::instance()->db->get_sidebars();
 		
 		foreach ( $sidebars as $sidebar_id => $sidebar_data ) {
+			$sidebar_classes = array( 'pwa-sidebar' );
+			if ( ! empty( $sidebar_data['css_classes'] ) )
+				$sidebar_classes[] = $sidebar_data['css_classes'];
+			
 			register_sidebar(
 				array(
 					'id'            => 'pwa-' . sanitize_title( $sidebar_id ),
 					'name'          => $sidebar_data['name'],
 					'description'   => $sidebar_data['description'],
-					'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="widget-inner">',
+					'before_widget' => '<section id="%1$s" class="widget ' . esc_attr( implode( ' ', $sidebar_classes ) ) . ' %2$s"><div class="widget-inner">',
 					'after_widget'  => '</div></section>',
 					'before_title'  => '<h5 class="widget-title"><span>',
 					'after_title'   => '</span></h5>',
@@ -177,6 +181,13 @@ final class PWA_Admin_UI {
 								<label>
 									<?php _e( 'Description', 'pojo-widgets-area' ); ?>:
 									<input type="text" name="description" value="<?php echo esc_attr( $sidebar_data['description'] ); ?>" />
+								</label>
+							</div>
+
+							<div>
+								<label>
+									<?php _e( 'CSS Classes', 'pojo-widgets-area' ); ?>:
+									<input type="text" name="css_classes" placeholder="<?php _e( '(Optional)', 'pojo-widgets-area' ); ?>" value="<?php echo esc_attr( $sidebar_data['css_classes'] ); ?>" />
 								</label>
 							</div>
 
