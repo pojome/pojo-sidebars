@@ -32,6 +32,11 @@ final class Pojo_Widgets_Area {
 	 */
 	public $db;
 
+	/**
+	 * @var PWA_Replacer
+	 */
+	public $replacer;
+
 	public function load_textdomain() {
 		load_plugin_textdomain( 'pojo-widgets-area', false, basename( dirname( __FILE__ ) ) . '/languages' );
 	}
@@ -84,9 +89,11 @@ final class Pojo_Widgets_Area {
 		
 		include( 'includes/class-pwa-db.php' );
 		include( 'includes/class-pwa-admin-ui.php' );
+		include( 'includes/class-pwa-replacer.php' );
 
 		$this->db       = new PWA_DB();
 		$this->admin_ui = new PWA_Admin_UI();
+		$this->replacer = new PWA_Replacer();
 	}
 	
 	private function __construct() {

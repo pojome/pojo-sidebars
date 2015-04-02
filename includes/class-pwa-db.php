@@ -34,6 +34,30 @@ final class PWA_DB {
 		return false;
 	}
 
+	public function get_core_sidebars() {
+		global $wp_registered_sidebars;
+		
+		$sidebars = $this->get_sidebars();
+		$our_sidebars = array();
+		if ( ! empty( $sidebars ) ) {
+			foreach ( $sidebars as $sidebar_id => $sidebar_args ) {
+				$our_sidebars[] = 'pwa-' . $sidebar_id;
+			}
+		}
+		
+		$return_sidebars = array();
+		if ( ! empty( $wp_registered_sidebars ) ) {
+			foreach ( $wp_registered_sidebars as $sidebar_id => $sidebar_args ) {
+				if ( in_array( $sidebar_id, $our_sidebars ) )
+					continue;
+
+				$return_sidebars[ $sidebar_id ] = $sidebar_args['name'];
+			}
+		}
+		
+		return $return_sidebars;
+	}
+
 	public function remove_sidebar( $id ) {
 		$sidebars = $this->get_sidebars();
 		if ( isset( $sidebars[ $id ] ) )

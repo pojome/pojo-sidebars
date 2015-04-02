@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pojo-widgets-area 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-03-08 19:33+0200\n"
+"POT-Creation-Date: 2015-04-02 10:26+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,41 +22,57 @@ msgstr ""
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
-#: includes/class-pwa-admin-ui.php:112 includes/class-pwa-admin-ui.php:113
-#: includes/class-pwa-admin-ui.php:126
+#: includes/class-pwa-admin-ui.php:117 includes/class-pwa-admin-ui.php:118
+#: includes/class-pwa-admin-ui.php:131
 msgid "Widgets Area"
 msgstr ""
 
-#: includes/class-pwa-admin-ui.php:136 includes/class-pwa-admin-ui.php:171
+#: includes/class-pwa-admin-ui.php:141 includes/class-pwa-admin-ui.php:176
 msgid "Name"
 msgstr ""
 
-#: includes/class-pwa-admin-ui.php:143 includes/class-pwa-admin-ui.php:178
-#: includes/class-pwa-db.php:64
+#: includes/class-pwa-admin-ui.php:148 includes/class-pwa-admin-ui.php:183
+#: includes/class-pwa-db.php:84
 msgid "Description"
 msgstr ""
 
-#: includes/class-pwa-admin-ui.php:149
+#: includes/class-pwa-admin-ui.php:154
 msgid "Create"
 msgstr ""
 
-#: includes/class-pwa-admin-ui.php:166
+#: includes/class-pwa-admin-ui.php:171
 msgid "Remove"
 msgstr ""
 
-#: includes/class-pwa-admin-ui.php:184
+#: includes/class-pwa-admin-ui.php:190
+msgid "CSS Classes"
+msgstr ""
+
+#: includes/class-pwa-admin-ui.php:191
+msgid "(Optional)"
+msgstr ""
+
+#: includes/class-pwa-admin-ui.php:196
 msgid "Update"
 msgstr ""
 
-#: includes/class-pwa-admin-ui.php:189
+#: includes/class-pwa-admin-ui.php:201
 msgid "No have any sidebars."
 msgstr ""
 
-#: includes/class-pwa-db.php:51
+#: includes/class-pwa-admin-ui.php:220
+msgid "Default"
+msgstr ""
+
+#: includes/class-pwa-admin-ui.php:236
+msgid "Override Sidebars"
+msgstr ""
+
+#: includes/class-pwa-db.php:71
 msgid "You must press name."
 msgstr ""
 
-#: includes/class-pwa-db.php:63
+#: includes/class-pwa-db.php:83
 msgid "Sidebar"
 msgstr ""
 
