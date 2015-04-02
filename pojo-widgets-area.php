@@ -5,7 +5,7 @@ Plugin URI: http://pojo.me/
 Description: This plugin allows you to add a Widgets Area widget to your WordPress site, of which works with Pojo Framework.
 Author: Pojo Team
 Author URI: http://pojo.me/
-Version: 1.0.1
+Version: 1.0.0
 Text Domain: pojo-widgets-area
 Domain Path: /languages/
 */
