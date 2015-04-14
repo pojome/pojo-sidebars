@@ -205,56 +205,11 @@ final class PWA_Admin_UI {
 	<?php
 	}
 
-	public function register_sidebar_metabox( $meta_boxes = array() ) {
-		global $wp_registered_sidebars;
-		
-		if ( empty( $wp_registered_sidebars ) )
-			return $meta_boxes;
-		
-		$core_sidebars = Pojo_Widgets_Area::instance()->db->get_core_sidebars();
-		if ( empty( $core_sidebars ) )
-			return $core_sidebars;
-
-		$post_types_objects = get_post_types( array( 'public' => true ), 'objects' );
-		$public_post_types = array();
-		foreach ( $post_types_objects as $cpt_slug => $post_type ) {
-			$public_post_types[] = $cpt_slug;
-		}
-		
-		$fields = array();
-
-		$sidebar_options = array( '' => __( 'Default', 'pojo-widgets-area' ) );
-		foreach ( $wp_registered_sidebars as $sidebar_id => $sidebar_args ) {
-			$sidebar_options[ $sidebar_id ] = $sidebar_args['name'];
-		}
-		
-		foreach ( $core_sidebars as $sidebar_id => $sidebar_name ) {
-			$fields[] = array(
-				'id' => 'override_sidebar_' . $sidebar_id,
-				'title' => $sidebar_name,
-				'type' => Pojo_MetaBox::FIELD_SELECT,
-				'options' => $sidebar_options,
-			);
-		}
-
-		$meta_boxes[] = array(
-			'id'         => 'pojo-override-sidebars',
-			'title'      => __( 'Sidebars', 'pojo-widgets-area' ),
-			'post_types' => $public_post_types,
-			'context'   => 'side',
-			'prefix'     => 'pwa_',
-			'fields'     => $fields,
-		);
-		
-		return $meta_boxes;
-	}
-
 	public function __construct() {
 		$this->manager_actions();
 		$this->register_sidebars();
 
 		add_action( 'admin_menu', array( &$this, 'register_menu' ), 400 );
-		add_filter( 'pojo_meta_boxes', array( &$this, 'register_sidebar_metabox' ) );
 		
 		add_action( 'wp_ajax_pma_remove_sidebar', array( &$this, 'ajax_pma_remove_sidebar' ) );
 	}
