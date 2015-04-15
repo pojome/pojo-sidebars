@@ -32,6 +32,11 @@ final class Pojo_Sidebars {
 	 */
 	public $db;
 
+	/**
+	 * @var Pojo_Sidebars_Shortcode
+	 */
+	public $shortcode;
+
 	public function load_textdomain() {
 		load_plugin_textdomain( 'pojo-sidebars', false, basename( dirname( __FILE__ ) ) . '/languages' );
 	}
@@ -74,9 +79,11 @@ final class Pojo_Sidebars {
 	public function bootstrap() {
 		include( 'includes/class-pojo-sidebars-db.php' );
 		include( 'includes/class-pojo-sidebars-admin-ui.php' );
+		include( 'includes/class-pojo-sidebars-shortcode.php' );
 
-		$this->db       = new Pojo_Sidebars_DB();
-		$this->admin_ui = new Pojo_Sidebars_Admin_UI();
+		$this->db        = new Pojo_Sidebars_DB();
+		$this->admin_ui  = new Pojo_Sidebars_Admin_UI();
+		$this->shortcode = new Pojo_Sidebars_Shortcode();
 	}
 	
 	private function __construct() {
