@@ -94,4 +94,4 @@ final class Pojo_Sidebars {
 }
 
 Pojo_Sidebars::instance();
-// EOF/ EOF
+// EOF
