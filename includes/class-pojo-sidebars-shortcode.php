@@ -7,8 +7,12 @@ final class Pojo_Sidebars_Shortcode {
 		if ( empty( $atts['id'] ) )
 			return '';
 		
+		ob_start();
+		
 		$sidebar_id = 'pojo-sidebar-' . $atts['id'];
 		dynamic_sidebar( $sidebar_id );
+		
+		return ob_get_clean();
 	}
 
 	public function __construct() {
