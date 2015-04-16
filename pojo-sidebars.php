@@ -2,7 +2,7 @@
 /*
 Plugin Name: Pojo Sidebars
 Plugin URI: http://pojo.me/
-Description: This plugin allows you to add a Sidebars to your WordPress site.
+Description: Pojo Sidebars generates as many sidebars as you need. It then allows you to place them on any Post, Page or Custom Posts Type in your WordPress site.
 Author: Pojo Team
 Author URI: http://pojo.me/
 Version: 1.0.0
