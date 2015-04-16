@@ -1,5 +1,5 @@
 /**
- * Pojo Widgets Area Makefile
+ * Pojo Sidebars Makefile
  */
 'use strict';
 
