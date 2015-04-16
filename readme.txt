@@ -10,7 +10,7 @@ Pojo Sidebars generates as many sidebars as you need. It then allows you to plac
 
 == Description ==
 
-With Pojo Sidebars you can create as many sidebars as you need for any page you want. 
+With Pojo Sidebars you can create as many sidebars you need for any page you want. Especially for themes based on [Pojo Framework](http://pojo.me/?utm_source=wp-repo&utm_medium=link&utm_campaign=sidebars).
 
 You can easily separate your site into sections, as well as set  a specific sidebar for every single page or custom post type.
 
