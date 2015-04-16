@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pojo-sidebars 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-15 11:31+0300\n"
+"POT-Creation-Date: 2015-04-16 14:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,10 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: includes/class-pojo-sidebars-admin-ui.php:34
 #: includes/class-pojo-sidebars-admin-ui.php:35
+#: includes/class-pojo-sidebars-admin-ui.php:36
 #: includes/class-pojo-sidebars-db.php:11
 msgid "Sidebars"
+msgstr ""
+
+#: includes/class-pojo-sidebars-admin-ui.php:55
+msgid "ID"
+msgstr ""
+
+#: includes/class-pojo-sidebars-admin-ui.php:56
+msgid "Shortcode"
 msgstr ""
 
 #: includes/class-pojo-sidebars-db.php:12
@@ -64,6 +72,6 @@ msgstr ""
 msgid "New Sidebar Name"
 msgstr ""
 
-#: pojo-widgets-area.php:50 pojo-widgets-area.php:61
+#: pojo-sidebars.php:55 pojo-sidebars.php:66
 msgid "Cheatin&#8217; huh?"
 msgstr ""

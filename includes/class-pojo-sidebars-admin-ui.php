@@ -52,8 +52,8 @@ final class Pojo_Sidebars_Admin_UI {
 		$columns = array(
 			'cb' => $old_columns['cb'],
 			'name' => $old_columns['name'],
-			'ID' => __( 'ID', '' ),
-			'shortcode' => __( 'Shortcode', '' ),
+			'ID' => __( 'ID', 'pojo-sidebars' ),
+			'shortcode' => __( 'Shortcode', 'pojo-sidebars' ),
 			'description' => $old_columns['description'],
 		);
 		
