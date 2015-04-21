@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: includes/class-pojo-sidebars-admin-ui.php:97
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pojo-sidebars 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-16 14:24+0300\n"
+"POT-Creation-Date: 2015-04-20 14:07+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +30,10 @@ msgstr ""
 
 #: includes/class-pojo-sidebars-admin-ui.php:56
 msgid "Shortcode"
+msgstr ""
+
+#: includes/class-pojo-sidebars-admin-ui.php:96
+msgid "The name of sidebar, must be unique."
 msgstr ""
 
 #: includes/class-pojo-sidebars-db.php:12
