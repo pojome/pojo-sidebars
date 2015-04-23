@@ -46,6 +46,18 @@ Would you like to like to contribute to Pojo Sidebars? You are more than welcome
 1. Drag and drop the widget and set it
 1. Enjoy!
 
+## Screenshots ##
+
+### 1. Dashboard ###
+![Dashboard](http://s.wordpress.org/extend/plugins/pojo-sidebars/screenshot-1.png)
+
+### 2. Widgets Area ###
+![Widgets Area](http://s.wordpress.org/extend/plugins/pojo-sidebars/screenshot-2.png)
+
+### 3. Widgets Area 2 ###
+![Widgets Area 2](http://s.wordpress.org/extend/plugins/pojo-sidebars/screenshot-3.png)
+
+
 ## Changelog ##
 
 ### 1.0.0 ###
