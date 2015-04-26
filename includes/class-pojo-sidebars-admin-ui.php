@@ -93,8 +93,8 @@ final class Pojo_Sidebars_Admin_UI {
 		?>
 		<script>jQuery( document ).ready( function( $ ) {
 				var $wrapper = $( '#addtag, #edittag' );
-				$wrapper.find( 'div.form-field.term-name-wrap > p' ).text( '<?php _e( 'The name of sidebar, must be unique.', 'pojo-sidebars' ); ?>' );
-				$wrapper.find( 'tr.form-field.term-name-wrap p.description' ).text( '<?php _e( '', 'pojo-sidebars' ); ?>' );
+				$wrapper.find( 'tr.form-field.term-name-wrap p, div.form-field.term-name-wrap > p' ).text( '<?php _e( 'The name of the widgets area', 'pojo-sidebars' ); ?>' );
+				$wrapper.find( 'tr.form-field.term-description-wrap p, div.form-field.term-description-wrap > p' ).text( '<?php _e( 'The description of the widgets area (optional)', 'pojo-sidebars' ); ?>' );
 			} );</script><?php
 	}
 

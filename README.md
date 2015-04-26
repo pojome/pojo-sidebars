@@ -2,7 +2,7 @@
 [![Dependency Status](https://david-dm.org/pojome/pojo-sidebars/dev-status.svg)](https://david-dm.org/pojome/pojo-sidebars#info=devDependencies) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 **Contributors:** pojo.me, KingYes, ariel.k  
-**Tags:** pojo, sidebars  
+**Tags:** sidebar, sidebars, widgets area, widget area, widget, widgets, custom sidebar, custom sidebars, shortcode, dynamic sidebar, sidebar management, multiple sidebars  
 **Requires at least:** 4.1  
 **Tested up to:** 4.2  
 **Stable tag:** 1.0.0  
