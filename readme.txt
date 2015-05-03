@@ -22,7 +22,7 @@ You can replace any sidebar with a different one by embedding it in the Text Edi
 
 <strong>Display a sidebar using a WordPress function:</strong>
 
-<code><?php dynamic_sidebar( 'sidebarID' ) ); ?></code>
+<code><?php dynamic_sidebar( 'sidebarID' ); ?></code>
 
 Would you like to like to contribute to Pojo Sidebars? You are more than welcome to submit your requests on the [GitHub repo](https://github.com/pojome/pojo-sidebars/). Also, if you have any notes about the code, please open a ticket on this issue tracker.
 
