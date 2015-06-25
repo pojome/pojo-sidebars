@@ -66,7 +66,7 @@ final class Pojo_Sidebars {
 		_doing_it_wrong( __FUNCTION__, __( 'Cheatin&#8217; huh?', 'pojo-sidebars' ), '1.0.0' );
 	}
 
-	/**cd
+	/**
 	 * @return Pojo_Sidebars
 	 */
 	public static function instance() {
