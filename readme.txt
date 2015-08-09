@@ -2,8 +2,8 @@
 Contributors: pojo.me, KingYes, ariel.k
 Tags: sidebar, sidebars, widgets area, widget area, widget, widgets, custom sidebar, custom sidebars, shortcode, dynamic sidebar, sidebar management, multiple sidebars
 Requires at least: 4.1
-Tested up to: 4.2
-Stable tag: 1.0.1
+Tested up to: 4.3
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 Pojo Sidebars generates as many sidebars as you need. It then allows you to place them on any Post, Page or Custom Posts Type in your WordPress site.
@@ -51,6 +51,9 @@ Would you like to like to contribute to Pojo Sidebars? You are more than welcome
 3. Widgets Area 2
 
 == Changelog ==
+
+= 1.0.2 =
+* Tested up to WordPress v4.3
 
 = 1.0.0 =
 * Initial Public Release!
