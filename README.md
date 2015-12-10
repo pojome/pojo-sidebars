@@ -4,7 +4,7 @@
 **Contributors:** pojo.me, KingYes, ariel.k  
 **Tags:** sidebar, sidebars, widgets area, widget area, widget, widgets, custom sidebar, custom sidebars, shortcode, dynamic sidebar, sidebar management, multiple sidebars  
 **Requires at least:** 4.1  
-**Tested up to:** 4.3  
+**Tested up to:** 4.4  
 **Stable tag:** 1.0.2  
 **License:** GPLv2 or later  
 
@@ -59,6 +59,9 @@ Would you like to like to contribute to Pojo Sidebars? You are more than welcome
 
 
 ## Changelog ##
+
+### 1.0.3 ###
+* Fixed wrong permission in WordPress v4.4
 
 ### 1.0.2 ###
 * Tested up to WordPress v4.3

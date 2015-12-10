@@ -26,7 +26,7 @@ final class Pojo_Sidebars_DB {
 			'labels' => $labels,
 			'public' => false,
 			'show_in_nav_menus' => false,
-			'show_ui' => false,
+			'show_ui' => true,
 			'capabilities' => array( 'edit_theme_options' ),
 			'query_var' => false,
 			'rewrite' => false,
