@@ -5,7 +5,7 @@
 **Tags:** sidebar, sidebars, widgets area, widget area, widget, widgets, custom sidebar, custom sidebars, shortcode, dynamic sidebar, sidebar management, multiple sidebars  
 **Requires at least:** 4.1  
 **Tested up to:** 4.4  
-**Stable tag:** 1.0.2  
+**Stable tag:** 1.0.3  
 **License:** GPLv2 or later  
 
 Pojo Sidebars generates as many sidebars as you need. It then allows you to place them on any Post, Page or Custom Posts Type in your WordPress site.
