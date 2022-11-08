@@ -2,7 +2,7 @@
 Contributors: pojo.me, KingYes, ariel.k
 Tags: sidebar, sidebars, widgets area, widget area, widget, widgets, custom sidebar, custom sidebars, shortcode, dynamic sidebar, sidebar management, multiple sidebars
 Requires at least: 4.1
-Tested up to: 6.0
+Tested up to: 6.1
 Stable tag: 1.0.3
 License: GPLv2 or later
 
